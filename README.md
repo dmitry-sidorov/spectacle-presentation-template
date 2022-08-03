@@ -20,14 +20,7 @@ The Spectacle core API is available in the [Spectacle Docs](https://github.com/F
     $ yarn install
     ```
 
-2. Start the webpack server. The server will run at the default `webpack-dev-server` address, [`localhost:8080`](http://localhost:8080).
-
-    ```sh
-    $ yarn start
-
-    # Or with a specific port!
-    $ yarn start --port=3000
-    ```
+2. Start the webpack server. The server will run at [`localhost:5001`](http://localhost:5001).
 
 ## Tutorial
 
@@ -42,3 +35,6 @@ $ yarn build
 ```
 
 From there you can deploy the built slides  in `dist` to services like Netlify, Surge, etc!
+
+
+3. See [`peresenter mode`](http://localhost:5001/?presenterMode=true&slideIndex=0&stepIndex=0).
